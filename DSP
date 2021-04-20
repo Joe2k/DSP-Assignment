@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T09:20:58.608Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="79L_RrwmwNqsIfcr14mc" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T10:53:44.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="kJgM8p96IxMKCCHVg-AE" version="14.6.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,79 @@
         </mxCell>
         <mxCell id="jagCGYZ6EnMfCJWi_nut-34" value="Plot the Frequency Response" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="675" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fLaLVOM1mObhOOusD7LE" name="Page-2">
+    <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-0" />
+        <mxCell id="asnfA6CoaKU5qPATHWmN-1" parent="asnfA6CoaKU5qPATHWmN-0" />
+        <mxCell id="asnfA6CoaKU5qPATHWmN-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1" source="asnfA6CoaKU5qPATHWmN-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-3" value="FIR Bandpass" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="354" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-4" value="Initialize the given specifications and normalize the cutoff frequencies" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="349" y="170" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-5" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1" source="asnfA6CoaKU5qPATHWmN-4" target="asnfA6CoaKU5qPATHWmN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="260" as="sourcePoint" />
+            <mxPoint x="310" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-6" value="Design &lt;b&gt;Hanning&lt;/b&gt; Window" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="210" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1" source="asnfA6CoaKU5qPATHWmN-4" target="asnfA6CoaKU5qPATHWmN-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-11" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284.5" y="400" as="sourcePoint" />
+            <mxPoint x="284.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-12" value="Design&amp;nbsp;&lt;b&gt;Hanning window based FIR&lt;/b&gt;&amp;nbsp;&lt;br&gt;Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="220" y="450" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-13" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284.5" y="520" as="sourcePoint" />
+            <mxPoint x="284.5" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-14" value="Plot the Frequency Response" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="225" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-15" value="Design &lt;b&gt;Kaiser&lt;/b&gt; Window" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="479" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="553.5" y="400" as="sourcePoint" />
+            <mxPoint x="553.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-17" value="Design&amp;nbsp;&lt;b&gt;Kaiser window based FIR&lt;/b&gt;&amp;nbsp;&lt;br&gt;Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="489" y="450" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-18" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="553.5" y="520" as="sourcePoint" />
+            <mxPoint x="553.5" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asnfA6CoaKU5qPATHWmN-19" value="Plot the Frequency Response" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="asnfA6CoaKU5qPATHWmN-1">
+          <mxGeometry x="494" y="570" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
